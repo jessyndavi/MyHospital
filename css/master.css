@@ -37,6 +37,10 @@ header h1{
 #posts h1 a:hover{
   color:brown;
 }
+#posts ul :hover{
+font-size: 20px;
+}
+
  .down-btn{
    padding: 50px 0;
  }
@@ -54,12 +58,125 @@ header h1{
    table-layout:fixed;
    margin: 0 auto;
 
+
  }
  .nav-center li a:hover{
    background-color: white;
-
+   color:orange;
  }
  .m-col{
    -webkit-column-count:3;
  }
 /* this is not supposed to be there */
+.topimage{
+  background-image: url(../img/4.png);
+}
+.container{
+border-radius: 20px;
+margin:-4px;
+border: 30px;
+padding-:10px;
+
+
+}
+.text-center{
+  text-shadow: 2px 2px 2px #1C6EA4;
+}
+body{
+  background-color:#83CCDD;
+}
+
+#footer{
+  background-image: url(../img/footer.jpeg);
+}
+
+
+/*subcounty*/
+#nairobiSub{
+  display:none ;
+}
+#kisumuSub{
+  display:none ;
+}
+#mombasaSub{
+  display:none ;
+}
+#nakuruSub{
+  display:none ;
+}
+
+/*hosptals*/
+#machakosHosp{
+  display:none ;
+}
+#kajiadoHosp{
+  display: none;
+}
+#kiambuHosp{
+  display: none;
+}
+#murangaHosp{
+  display: none;
+}
+
+
+
+/*LOCATIONS*/
+#machakoslevel5hospitalLocation{
+  display: none;
+}
+#bishopkiokocatholichospitalLocation{
+  display: none;
+}
+#shalomhospitalLocation{
+  display: none;
+}
+#bristolparkhospitalLocation{
+  display: none;
+}
+
+#counties{
+  padding: 35px;
+  background-color: rgb(173, 216, 255);
+  border-radius: 25px;
+}
+.subcounty{
+  padding: 35px;
+  background-color: purple;
+  border-radius: 25px;
+}
+.HOSPITALS{
+  padding: 35px;
+  background-color: green;
+  border-radius: 25px;
+}
+
+#background{
+  background-image: url('../images/location.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  background-image: url('../images/page.jpeg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerimg{
+max-width:100%;
+max-height:100%;
+  background-image: url(../img/stethoscope.jpg);
+}
+
+.aboutimg{
+  background-image: url(../img/grey.jpg);
+}
+/* .text-center{
+  background-image: url(../img/topAbout.jpeg);
+} */
